@@ -5,7 +5,8 @@ app = Flask(__name__)
 employees = [
     {"id": 101, "name": "John"},
     {"id": 102, "name": "David"},
-    {"id": 103, "name": "Smith"}
+    {"id": 103, "name": "Smith"},
+    {"id":104,"name":"Abhi"}
 ]
 
 @app.route('/')
