@@ -11,7 +11,7 @@ employees = [
 
 @app.route('/')
 def home():
-    return "<h1>Employee Management System</h1>"
+    return "<h1>Employee Management System V2</h1>"
 
 @app.route('/employees')
 def get_employees():
